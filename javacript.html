@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> đội tuyển lmht </p>
+<select id="hieule" onchange="do_something()">
+    <option value="SKT">SKT</option>
+    <option value="GEN">GEN</option>
+    <option value="JDG">JDG</option>
+</select>
+<script>
+    function do_something() {
+        var selectedValue = document.getElementById("hieule").value;
+        alert(selectedValue);
+    }
+
+</script>
+</body>
+</html>
